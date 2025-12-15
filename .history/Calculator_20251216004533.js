@@ -34,12 +34,12 @@ function equal() {
       document.querySelector('.inputSection').value = answer;
     } catch {
       document.querySelector('.inputSection').value = "Error";
-    } 
-    if (answer === undefined) {
+    } if (answer === 'undefined') {
       answer = '';
     }
-  });
-};
+    
+  })
+}
 
 
 

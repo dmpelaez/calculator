@@ -25,7 +25,7 @@ background: rgb(34, 33, 33);
 align-items: center;
 }
 .inputSection {
-  color: white;
+  color: green;
   padding: 10px;
   padding-bottom: 0px;
   margin-top: 20px;
@@ -44,7 +44,9 @@ h1 {
   font-weight: bold;
   font-family: arial;
 }
-
+.inputSection [contenteditable="true"] {
+  color: green;
+}
 .btnSection {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;

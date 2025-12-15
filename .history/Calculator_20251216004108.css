@@ -44,7 +44,6 @@ h1 {
   font-weight: bold;
   font-family: arial;
 }
-
 .btnSection {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;

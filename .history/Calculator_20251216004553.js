@@ -35,11 +35,12 @@ function equal() {
     } catch {
       document.querySelector('.inputSection').value = "Error";
     } 
-    if (answer === undefined) {
+    if (answer === 'undefined') {
       answer = '';
     }
-  });
-};
+    
+  })
+}
 
 
 

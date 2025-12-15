@@ -38,8 +38,9 @@ function equal() {
     if (answer === undefined) {
       answer = '';
     }
-  });
-};
+    
+  })
+}
 
 
 
