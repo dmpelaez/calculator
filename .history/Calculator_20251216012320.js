@@ -3,12 +3,12 @@ let answer = '';
 
 
 function appendNumber(num) {
-
-  if (answer === 0) {
+  if (appendNumber()) {
     answer = '';
+    return;
   }
-
   answer += num;
+
   document.querySelector('.inputSection')
   .value = answer;
 };

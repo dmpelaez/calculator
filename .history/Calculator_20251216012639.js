@@ -7,8 +7,7 @@ function appendNumber(num) {
   if (answer === 0) {
     answer = '';
   }
-
-  answer += num;
+      answer += num;
   document.querySelector('.inputSection')
   .value = answer;
 };
