@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.Section {
+display: flex;
+flex-direction: column;
+border: 1px solid black;
+height: 200px;
+gap: 20px;
+background: black;
+}
+.inputSection {
+  color: white;
+}
+.btnSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px;
+  gap: 20px;
+}

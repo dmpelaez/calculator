@@ -1,0 +1,33 @@
+let answer = 0;
+
+function appendNumber(num) {
+  answer += num;
+
+
+  console.log(answer);
+
+ 
+ document.querySelector('.inputSection')
+  .innerHTML = answer;
+   
+};
+
+function appendValue() {
+  const result = eval(document.querySelector('.inputSection').value);
+   document.querySelector('.inputSection').innerHTML = result;
+}
+
+
+
+
+
+
+
+document.querySelector('.cancel')
+.addEventListener('click', () => {
+ 
+  answer = 0;
+  document.querySelector('.inputSection')
+  .innerHTML = '';
+})
+

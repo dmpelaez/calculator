@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.Section {
+display: flex;
+flex-direction: column;
+border: 1px solid black;
+
+gap: 20px;
+background: black;
+}
+.inputSection {
+  color: white;
+  padding: 20px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: end;
+}
+.btnSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px;
+  gap: 10px;
+  padding-top: 5px;
+}
+.btn {
+  border: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  font-weight: bold;
+  Font-size: 19px;
+  cursor: pointer;
+}
+.equal {
+  grid-column: 4
+}
+.dot {
+  grid-column: 3
+}
+.zero {
+  grid-row: 5;
+  grid-column: 1 / 2 span;
+  background: white;
+  width: auto;
+  border-radius: 10px;
+}

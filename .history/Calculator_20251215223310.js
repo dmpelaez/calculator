@@ -1,0 +1,28 @@
+
+let answer = '';
+
+
+
+function appendNumber(num) {
+  answer += num;
+
+if (Error) {
+document.querySelector('.inputSection')
+.value = '';
+}
+document.querySelector('.inputSection')
+.value = answer;
+
+};
+
+
+document.querySelector('.cancel')
+.addEventListener('click', () => {
+  answer = '';
+  document.querySelector('.inputSection')
+.value = answer;
+})
+
+
+
+
