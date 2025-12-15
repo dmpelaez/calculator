@@ -19,9 +19,9 @@ document.querySelector('.cancel')
 
 document.querySelector('.signs')
 .addEventListener('click', () => {
-  const value = document.querySelector('.inputSection').value.slice(0, -1);
-  document.querySelector('.inputSection').value = value;
-  answer = value;
+const value = document.querySelector('.inputSection').value.slice(0, -1);
+document.querySelector('.inputSection').value = value;
+answer = value;
 
 });
 

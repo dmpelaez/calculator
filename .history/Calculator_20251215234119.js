@@ -14,14 +14,14 @@ document.querySelector('.cancel')
 .addEventListener('click', () => {
     answer = '';
     document.querySelector('.inputSection')
-    .value = answer;
+  .value = answer;
 })
 
 document.querySelector('.signs')
 .addEventListener('click', () => {
-  const value = document.querySelector('.inputSection').value.slice(0, -1);
-  document.querySelector('.inputSection').value = value;
-  answer = value;
+const value = document.querySelector('.inputSection').value.slice(0, -1);
+document.querySelector('.inputSection').value = value;
+answer = value;
 
 });
 

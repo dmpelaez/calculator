@@ -2,26 +2,28 @@
 let answer = '';
 
 
+
 function appendNumber(num) {
   answer += num;
 
-  document.querySelector('.inputSection')
-  .value = answer;
+document.querySelector('.inputSection')
+.value = answer;
+
 };
 
 
 document.querySelector('.cancel')
 .addEventListener('click', () => {
-    answer = '';
-    document.querySelector('.inputSection')
-    .value = answer;
+  answer = '';
+  document.querySelector('.inputSection')
+.value = answer;
 })
 
 document.querySelector('.signs')
 .addEventListener('click', () => {
-  const value = document.querySelector('.inputSection').value.slice(0, -1);
-  document.querySelector('.inputSection').value = value;
-  answer = value;
+const value = document.querySelector('.inputSection').value.slice(0, -1);
+document.querySelector('.inputSection').value = value;
+answer = value;
 
 });
 
@@ -33,7 +35,7 @@ function equal() {
       answer = eval(answer);
       document.querySelector('.inputSection').value = answer;
     } catch {
-      document.querySelector('.inputSection').value = "Error";
+      document.querySelector('.inputSection').value = Error;
     }
   })
 }
